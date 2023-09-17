@@ -1,7 +1,7 @@
 
 # BedrockAPI
 
-The `bedrockapi` Node.js library is a powerful tool for both developers and Minecraft enthusiasts. It provides a simple and efficient way to obtain detailed information about a Minecraft Bedrock Edition server using only its IP address and port. With this library, you can access vital server statistics, player data, and more, making it an essential component for any Minecraft server monitoring or management system.
+The `bedrock-api` Node.js library is a powerful tool for both developers and Minecraft enthusiasts. It provides a simple and efficient way to obtain detailed information about a Minecraft Bedrock Edition server using only its IP address and port. With this library, you can access vital server statistics, player data, and more, making it an essential component for any Minecraft server monitoring or management system.
 
 ### Key Features:
 
@@ -17,7 +17,7 @@ The `bedrockapi` Node.js library is a powerful tool for both developers and Mine
 
 ## Documentation
 ```javascript
-const API = require('bedrockapi');
+const API = require('bedrock-api');
 const api = new API();
 const ip = 'play.nethergames.org';
 const port = 19132;
@@ -30,7 +30,7 @@ const port = 19132;
 Install with npm
 
 ```bash
-  npm install bedrockapi
+  npm install bedrock-api
 ```
 
 ## API Reference

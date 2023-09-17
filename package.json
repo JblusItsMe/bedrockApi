@@ -1,5 +1,5 @@
 {
-  "name": "bedrockapi",
+  "name": "bedrock-api",
   "version": "1.0.0",
   "description": "A Node.js library to retrieve information about a Minecraft Bedrock Edition server using its IP address and port.",
   "main": "./src/index.js",
@@ -14,5 +14,6 @@
     "dgram": "^1.0.1",
     "dns": "^0.2.2",
     "portfinder": "1.0.32"
-  }
+  },
+  "keywords": ["mcpe", "mcpe-ping", "bedrock-ping", "bedrock-api", "mcbe", "minecraft"]
 }
